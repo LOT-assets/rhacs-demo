@@ -13,8 +13,8 @@
 - name: Demo application deployments
   include_tasks: deploy_demos.yml
 
-- name: Network anomalies
-  include_tasks: network_anomalies.yml
+#- name: Network anomalies
+#  include_tasks: network_anomalies.yml
 
 - name: Baseline processes
   include_tasks: baseline_processes.yml
